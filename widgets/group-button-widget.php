@@ -175,6 +175,12 @@ class Group_Button_Widget extends Widget_Base
                 'selectors' => [
                     '{{WRAPPER}} .btn-1, {{WRAPPER}} .btn-2' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
                 ],
+                'default' => [
+                    'top' => '10',
+                    'right' => '35',
+                    'bottom' => '10',
+                    'left' => '35',
+                ],
             ]
         );
 
@@ -199,6 +205,12 @@ class Group_Button_Widget extends Widget_Base
                 'selectors' => [
                     '{{WRAPPER}} .btn-1' => 'border-top-left-radius: {{TOP}}{{UNIT}}; border-bottom-left-radius: {{BOTTOM}}{{UNIT}};',
                     '{{WRAPPER}} .btn-2' => 'border-top-right-radius: {{TOP}}{{UNIT}}; border-bottom-right-radius: {{BOTTOM}}{{UNIT}};',
+                ],
+                'default' => [
+                    'top' => '5',
+                    'right' => '0',
+                    'bottom' => '5',
+                    'left' => '0',
                 ],
             ]
         );
