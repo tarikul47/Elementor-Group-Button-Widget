@@ -16,7 +16,7 @@ class Group_Button_Widget extends Widget_Base
 
     public function get_title()
     {
-        return __('Group Button', 'elementor-group-button-widget');
+        return __('Tarikul Group Button', 'tarikul-egbw');
     }
 
     public function get_icon()
@@ -41,7 +41,7 @@ class Group_Button_Widget extends Widget_Base
         $this->start_controls_section(
             'content_section',
             [
-                'label' => __('Content', 'elementor-group-button-widget'),
+                'label' => __('Content', 'tarikul-egbw'),
                 'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
@@ -50,18 +50,18 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_1_text',
             [
-                'label' => __('Button 1 Text', 'elementor-group-button-widget'),
+                'label' => __('Button 1 Text', 'tarikul-egbw'),
                 'type' => Controls_Manager::TEXT,
-                'default' => __('Button 1', 'elementor-group-button-widget'),
+                'default' => __('Button 1', 'tarikul-egbw'),
             ]
         );
 
         $this->add_control(
             'button_1_link',
             [
-                'label' => __('Button 1 Link', 'elementor-group-button-widget'),
+                'label' => __('Button 1 Link', 'tarikul-egbw'),
                 'type' => Controls_Manager::URL,
-                'placeholder' => __('https://example.com', 'elementor-group-button-widget'),
+                'placeholder' => __('https://example.com', 'tarikul-egbw'),
                 'default' => [
                     'url' => '',
                     'is_external' => false,
@@ -74,18 +74,18 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_2_text',
             [
-                'label' => __('Button 2 Text', 'elementor-group-button-widget'),
+                'label' => __('Button 2 Text', 'tarikul-egbw'),
                 'type' => Controls_Manager::TEXT,
-                'default' => __('Button 2', 'elementor-group-button-widget'),
+                'default' => __('Button 2', 'tarikul-egbw'),
             ]
         );
 
         $this->add_control(
             'button_2_link',
             [
-                'label' => __('Button 2 Link', 'elementor-group-button-widget'),
+                'label' => __('Button 2 Link', 'tarikul-egbw'),
                 'type' => Controls_Manager::URL,
-                'placeholder' => __('https://example.com', 'elementor-group-button-widget'),
+                'placeholder' => __('https://example.com', 'tarikul-egbw'),
                 'default' => [
                     'url' => '',
                     'is_external' => false,
@@ -100,7 +100,7 @@ class Group_Button_Widget extends Widget_Base
         $this->start_controls_section(
             'style_section',
             [
-                'label' => __('Style', 'elementor-group-button-widget'),
+                'label' => __('Style', 'tarikul-egbw'),
                 'tab' => Controls_Manager::TAB_STYLE,
             ]
         );
@@ -109,7 +109,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_1_color',
             [
-                'label' => __('Button 1 Color', 'elementor-group-button-widget'),
+                'label' => __('Button 1 Color', 'tarikul-egbw'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .btn-1' => 'background-color: {{VALUE}};',
@@ -121,7 +121,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_1_hover_color',
             [
-                'label' => __('Button 1 Hover Color', 'elementor-group-button-widget'),
+                'label' => __('Button 1 Hover Color', 'tarikul-egbw'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .btn-1:hover' => 'background-color: {{VALUE}};',
@@ -134,7 +134,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_2_color',
             [
-                'label' => __('Button 2 Color', 'elementor-group-button-widget'),
+                'label' => __('Button 2 Color', 'tarikul-egbw'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .btn-2' => 'background-color: {{VALUE}};',
@@ -146,7 +146,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_2_hover_color',
             [
-                'label' => __('Button 2 Hover Color', 'elementor-group-button-widget'),
+                'label' => __('Button 2 Hover Color', 'tarikul-egbw'),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .btn-2:hover' => 'background-color: {{VALUE}};',
@@ -160,7 +160,7 @@ class Group_Button_Widget extends Widget_Base
             Group_Control_Typography::get_type(),
             [
                 'name' => 'button_typography',
-                'label' => __('Typography', 'elementor-group-button-widget'),
+                'label' => __('Typography', 'tarikul-egbw'),
                 'selector' => '{{WRAPPER}} .btn-1, {{WRAPPER}} .btn-2',
             ]
         );
@@ -169,7 +169,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_responsive_control(
             'button_padding',
             [
-                'label' => __('Button Padding', 'elementor-group-button-widget'),
+                'label' => __('Button Padding', 'tarikul-egbw'),
                 'type' => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', 'em', '%'],
                 'selectors' => [
@@ -181,7 +181,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_responsive_control(
             'button_margin',
             [
-                'label' => __('Button Margin', 'elementor-group-button-widget'),
+                'label' => __('Button Margin', 'tarikul-egbw'),
                 'type' => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', 'em', '%'],
                 'selectors' => [
@@ -193,7 +193,7 @@ class Group_Button_Widget extends Widget_Base
         $this->add_control(
             'button_border_radius',
             [
-                'label' => __('Button Border Radius', 'elementor-group-button-widget'),
+                'label' => __('Button Border Radius', 'tarikul-egbw'),
                 'type' => Controls_Manager::DIMENSIONS,
                 'size_units' => ['px', '%'],
                 'selectors' => [
